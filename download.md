@@ -1,5 +1,6 @@
 # 5-18-2021 epi-line floral stem data is ready for download
 #downloaded to /data/users/xzy50/epi_line_floral_stem_5_18_2021
+
 `
 wget -r --user=X202SC21033369-Z01-F003 --password=XXXXXXXX ftp://X202SC21033369-Z01-F003:0r3p2rh0@usftp21.novogene.com:21/raw_data/
 wget -r --user=X202SC21033369-Z01-F003 --password=XXXXXXXX ftp://X202SC21033369-Z01-F003:0r3p2rh0@usftp21.novogene.com:21/checkSize.xls
