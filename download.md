@@ -1,13 +1,13 @@
 # 5-18-2021 epi-line floral stem data is ready for download
 #downloaded to /data/users/xzy50/epi_line_floral_stem_5_18_2021
-'''
+'
 wget -r --user=X202SC21033369-Z01-F003 --password=XXXXXXXX ftp://X202SC21033369-Z01-F003:0r3p2rh0@usftp21.novogene.com:21/raw_data/
 wget -r --user=X202SC21033369-Z01-F003 --password=XXXXXXXX ftp://X202SC21033369-Z01-F003:0r3p2rh0@usftp21.novogene.com:21/checkSize.xls
 wget -r --user=X202SC21033369-Z01-F003 --password=XXXXXXXX ftp://X202SC21033369-Z01-F003:0r3p2rh0@usftp21.novogene.com:21/report/X202SC21033369-Z01-F003_final_20210513032544.zip 
-'''
+'
 # check the md5
 # orignal md5 
-'''
+'
 -bash-4.2$ cat epi24SP1/MD5.txt 
 7264e3fe7e6dbaaa30917f30618b4738  epi24SP1_1.fq.gz
 b492af143ce8960c376a0f35cccdf79c  epi24SP1_2.fq.gz
@@ -48,9 +48,9 @@ d5e976f7e1829e7463fef9669bb119b1  WTSP2_2.fq.gz
 ccc8af1d6377db93fcb0aaa8b1005566  WTSP3_1.fq.gz
 20710a177a9b2b73784c13de6b93e7db  WTSP3_2.fq.gz
 
-'''
+'
 # check the new md5
-'''
+'
 -bash-4.2$ md5sum epi24SP1/epi24SP1_1.fq.gz 
 7264e3fe7e6dbaaa30917f30618b4738  epi24SP1/epi24SP1_1.fq.gz
 -bash-4.2$ md5sum epi24SP1/epi24SP1_2.fq.gz 
@@ -101,4 +101,4 @@ d5e976f7e1829e7463fef9669bb119b1  WTSP2/WTSP2_2.fq.gz
 ccc8af1d6377db93fcb0aaa8b1005566  WTSP3/WTSP3_1.fq.gz
 -bash-4.2$ md5sum WTSP3/WTSP3_2.fq.gz
 20710a177a9b2b73784c13de6b93e7db  WTSP3/WTSP3_2.fq.gz
-'''
+'
